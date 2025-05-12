@@ -10,19 +10,19 @@ The goal is to use machine learning model(Random Forest) to predict the likeliho
 
 Key Components :: 
 
-Data Collection :-  
+Data Collection :- 
 
-Gather historical bug data from version control systems (e.g., Git) and bug tracking systems (e.g., Jira).  
+ * Gather historical bug data from version control systems (e.g., Git) and bug tracking systems (e.g., Jira)
 
-Collect code metrics such as commit_id, no. of commits, lines of code (LOC), cyclomatic complexity, lines_added, lines_deleted, code_churn, and bug present  
+ * Collect code metrics such as commit_id, no. of commits, lines of code (LOC), cyclomatic complexity, lines_added, lines_deleted, code_churn, and bug present  
 
 Data Preprocessing :-  
 
-Cleaning 
+ * Cleaning 
 
-Normalization 
+ * Normalization 
 
-Feature Selection 
+ * Feature Selection 
 
  
 
@@ -30,13 +30,13 @@ Model Training :-
 
  
 
-The model learns patterns and relationships between the features and the target variable (bug_present) from the training data 
+ * The model learns patterns and relationships between the features and the target variable (bug_present) from the training data 
 
-It uses these learned patterns to make predictions. 
+ * It uses these learned patterns to make predictions. 
 
 Prediction Phase :-  
 
-For new data, the model applies the same learned patterns to predict the likelihood of bugs 
+ * For new data, the model applies the same learned patterns to predict the likelihood of bugs 
 
-Features such as high cyclomatic complexity, high code churn, and specific ratios (complexity_per_loc) can indicate higher risk of bugs. 
+ * Features such as high cyclomatic complexity, high code churn, and specific ratios (complexity_per_loc) can indicate higher risk of bugs. 
 
