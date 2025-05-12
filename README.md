@@ -15,11 +15,11 @@ Code Metrics: Collect metrics such as commit_id, no. of commits, lines of code (
  
 Explanation of Model Generalization
 How the Model Works
-Training Phase:
 
+Training Phase:
 The model learns patterns and relationships between the features and the target variable (bug_present) from the training data.
 It uses these learned patterns to make predictions.
-Prediction Phase:
 
+Prediction Phase:
 For new data, the model applies the same learned patterns to predict the likelihood of bugs.
 Features such as high cyclomatic complexity, high code churn, and specific ratios (complexity_per_loc) can indicate higher risk of bugs.
