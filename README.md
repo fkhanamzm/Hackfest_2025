@@ -10,7 +10,7 @@ Data Collection:
 
 Historical Data: Gather historical bug data from version control systems (e.g., Git) and bug tracking systems (e.g., Jira). 
 
-Code Metrics: Collect metrics such as lines of code (LOC), cyclomatic complexity, lines_added, lines_deleted, code_churn, and bug present 
+Code Metrics: Collect metrics such as commit_id, no. of commits, lines of code (LOC), cyclomatic complexity, lines_added, lines_deleted, code_churn, and bug present 
 
  
 Explanation of Model Generalization
