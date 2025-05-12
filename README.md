@@ -1,27 +1,42 @@
-BUG PREDICTION MODEL
+Using machine learning models to predict potential bugs based on historical data 
 
-Creating machine learning models to predict potential bugs based on historical data is a powerful approach to improving software quality and reliability. Here's a brief overview of how you can achieve this: 
+Random Forest is a versatile machine learning model used to predict potential bugs based on historical data, it is a powerful approach for improving software quality and reliability 
 
-Objective 
+Some key advantages of Random Forest are Feature Randomness and Robustness 
 
-The goal is to develop machine learning models that can predict the likelihood of bugs in software modules by analyzing historical data and code metrics. 
+Objective :: 
 
-Key Components 
+The goal is to use machine learning model(Random Forest) to predict the likelihood of bugs in software modules by analyzing historical data and code metrics.  
 
-Data Collection: 
+Key Components :: 
 
-Historical Data: Gather historical bug data from version control systems (e.g., Git) and bug tracking systems (e.g., Jira). 
+Data Collection :-  
 
-Code Metrics: Collect metrics such as commit_id, no. of commits, lines of code (LOC), cyclomatic complexity, lines_added, lines_deleted, code_churn, and bug present 
+Gather historical bug data from version control systems (e.g., Git) and bug tracking systems (e.g., Jira).  
+
+Collect code metrics such as commit_id, no. of commits, lines of code (LOC), cyclomatic complexity, lines_added, lines_deleted, code_churn, and bug present  
+
+Data Preprocessing :-  
+
+Cleaning 
+
+Normalization 
+
+Feature Selection 
 
  
-Explanation of Model Generalization
-How the Model Works
 
-Training Phase:
-The model learns patterns and relationships between the features and the target variable (bug_present) from the training data.
-It uses these learned patterns to make predictions.
+Model Training :- 
 
-Prediction Phase:
-For new data, the model applies the same learned patterns to predict the likelihood of bugs.
-Features such as high cyclomatic complexity, high code churn, and specific ratios (complexity_per_loc) can indicate higher risk of bugs.
+ 
+
+The model learns patterns and relationships between the features and the target variable (bug_present) from the training data 
+
+It uses these learned patterns to make predictions. 
+
+Prediction Phase :-  
+
+For new data, the model applies the same learned patterns to predict the likelihood of bugs 
+
+Features such as high cyclomatic complexity, high code churn, and specific ratios (complexity_per_loc) can indicate higher risk of bugs. 
+
