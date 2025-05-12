@@ -1,3 +1,5 @@
+BUG PREDICTION MODEL
+
 Creating machine learning models to predict potential bugs based on historical data is a powerful approach to improving software quality and reliability. Here's a brief overview of how you can achieve this: 
 
 Objective 
